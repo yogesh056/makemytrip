@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/makemytrip/static/css/main.a14494b4.chunk.css",
+    "main.js": "/makemytrip/static/js/main.bb4e2254.chunk.js",
+    "main.js.map": "/makemytrip/static/js/main.bb4e2254.chunk.js.map",
+    "runtime~main.js": "/makemytrip/static/js/runtime~main.e2a34470.js",
+    "runtime~main.js.map": "/makemytrip/static/js/runtime~main.e2a34470.js.map",
+    "static/js/2.59b51dad.chunk.js": "/makemytrip/static/js/2.59b51dad.chunk.js",
+    "static/js/2.59b51dad.chunk.js.map": "/makemytrip/static/js/2.59b51dad.chunk.js.map",
+    "index.html": "/makemytrip/index.html",
+    "precache-manifest.22dda46651c938e72e8623b9bf14ae10.js": "/makemytrip/precache-manifest.22dda46651c938e72e8623b9bf14ae10.js",
+    "service-worker.js": "/makemytrip/service-worker.js",
+    "static/css/main.a14494b4.chunk.css.map": "/makemytrip/static/css/main.a14494b4.chunk.css.map"
+  }
+}

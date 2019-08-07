@@ -1,0 +1,216 @@
+body.scrolled .container-parent{
+    position: fixed;
+    top: 0;
+    width:100%
+}
+
+.subHeader-one
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 11;
+    box-sizing: border-box;
+}
+.subHeader-two
+{
+    display: block;
+    box-sizing: border-box;
+    align-items: center;
+    margin-top: 36px;
+   
+    position: absolute;
+    left: 50%;
+    border-radius: 5px;
+    transform: translateX(-50%);
+}
+body.scrolled .subHeader-two {
+    margin: 0;
+    position: relative;
+}
+.subHeader-three
+
+{box-sizing: border-box;
+    width: 939px;
+    height:79px;
+    margin: 0 auto;
+    box-shadow: rgba(0,0,0,0.2) 0 0 10px 1px;
+    align-items: center;
+    margin-top:10px;
+    border-radius:6px;
+   
+    background-color: white
+}
+.subHeader-a-one
+{
+    height:67px;
+    width:69.484px;
+    text-decoration: none;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    color: #008cff;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-size: 14px;
+    
+}
+.subHeader-ul
+{
+ 
+    display: flex;
+   margin-top:40px;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 10px;
+}
+.subHeader-li-one
+{
+list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    align-items: flex-end;
+    margin-left: 22px;
+    margin: 0 10px;
+    position: relative;
+    text-align: -webkit-match-parent;
+}
+.subHeader-a-one-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    background-size: 300px 267px;
+    background-position: -4px -38px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-one-icon-text
+{
+    color: #008cff;
+    border-bottom: 3px solid #008cff;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+}
+.subHeader-a-two-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    background-size: 300px 267px;
+    background-position: -50px 1px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-two-icon-text
+{
+    color: #4a4a4a;
+    border-radius: 10px;
+    border-bottom: 3px solid #fff;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 14px;
+    cursor: pointer;
+}
+.subHeader-a-three-icon
+{   display:block;
+    width: 25px;
+    height: 34px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    background-position: -92px -37px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-four-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    background-position: -179px -37px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-five-icon
+{   display:block;
+    margin-top: 3px;
+    width: 25px;
+    height: 34px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    background-position: -121px -38px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-six-icon
+{   display:block;
+    width: 25px;
+    height: 34px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    background-position: -154px -39px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-seven-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-bottom: 2px;
+    margin-top: 3px;
+    background-size: 300px 267px;
+    background-position: -153px -154px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-eight-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    margin-top: 3px;
+    background-position: -105px -153px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-nine-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    margin-top: 3px;
+    background-position: -215px -37px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-ten-icon
+{   display:block;
+    width: 40px;
+    height: 34px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    background-size: 300px 267px;
+    background-position: -257px -37px;
+    box-sizing: border-box;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/commonHeaderSprite1.png);
+}
+.subHeader-a-ten-icon-more
+{ display:block;
+    margin: 0 0 2px 2px;
+    border-top: 2px solid #4a4a4a;
+    border-right: 2px solid #4a4a4a;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    padding: 2px;
+}

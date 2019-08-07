@@ -1,0 +1,62 @@
+{
+  "homepage": "http://yogesh056.github.io/makemytrip",
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "main": "dist/material-ui-pickers.cjs.js",
+  "module": "dist/material-ui-pickers.esm.js",
+  "dependencies": {
+    "@material-ui/core": "^4.3.0",
+    "@material-ui/icons": "^4.2.1",
+    "@matharumanpreet00/react-daterange-picker": "^1.0.5",
+    "axios": "^0.19.0",
+    "bootstrap": "^4.3.1",
+    "date-fns": "^1.30.1",
+    "downshift": "^3.2.10",
+    "firebase": "^6.3.3",
+    "history": "^4.9.0",
+    "jwt-decode": "^2.2.0",
+    "kalendaryo": "^1.11.1",
+    "material-date-range-picker": "^0.1.1",
+    "material-table": "^1.41.0",
+    "material-ui": "^0.20.2",
+    "material-ui-datetime-range-picker": "^0.2.4",
+    "material-ui-pickers": "^2.2.4",
+    "memoize-one": "^5.0.5",
+    "react": "^16.8.6",
+    "react-autosuggest": "^9.4.3",
+    "react-bootstrap": "^1.0.0-beta.10",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "react-star-ratings": "^2.3.0",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:5000",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.0"
+  }
+}

@@ -1,0 +1,276 @@
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top:100%;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 18;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .sub-container-five{background-color: #3e8e41;}
+
+
+
+
+*{
+	flex-shrink: 0;
+	flex-grow:0
+}
+body.scrolled .sub-container-one,
+body.scrolled .sub-container-two,
+body.scrolled .sub-container-three,
+body.scrolled .sub-container-four,
+body.scrolled .sub-container-five,
+body.scrolled .sub-container-six
+{
+display: none
+}
+.header-container {
+	height:41px;
+  display: flex;
+  padding-top: 3px;
+}
+.logo-image {
+  width: 113px;
+  height: 36px;
+}
+.container-parent {
+  width: 1200px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  display: block;
+  box-sizing: border-box;
+  font-family: Lato, sans-serif;
+  margin-top: 0px;
+}
+.sub-container-one {
+	align-items: center;
+	border-radius: 4px;
+  display: flex;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  margin-left: auto;
+  padding: 5px 10px;
+}
+.sub-container-one-icon {
+  background-size: 200px 550px;
+
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: -144px -31px;
+  background-image: url(http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+}
+.sub-container-one-one {
+  font-size: 10px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+.sub-container-one-one-one {
+  font-size: 10px;
+  color: white;
+  margin: 0;
+}
+.sub-container-one-one-one-span {
+  font-size: 10px;
+  color: white;
+  font-weight: 800;
+}
+.sub-container-one-one-one-p {
+  font-size: 8x;
+  margin: 0;
+  color: white;
+  font-weight: 400;
+}
+.sub-container-two {
+	border-radius: 4px;
+	display: flex;
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+.sub-container-two-icon
+{
+	background-size: 200px 550px;
+
+	background-image: url(http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+
+	margin-right: 10px;
+width: 16px;
+    height: 25px;
+	background-position: -122px -30px;
+}
+.sub-container-two-one {
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+}
+.sub-container-two-one-p {
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 3px;
+}
+.sub-container-three-one {
+	border-radius: 4px;
+padding-right:5px;
+	align-items: center;
+	height:100%;
+  display: flex;
+  margin-left: 5px;
+  
+  background-color: hsla(0, 0%, 100%, 0.15);
+}
+.sub-container-three-icon
+{
+	margin-right: 10px;
+	margin-left: 10px;
+	background-size: 200px 550px;
+
+	background-image: url(http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+	width: 23px;
+    height: 25px;
+    background-position: -174px -2px;
+}
+.sub-container-three-two {
+	
+  display: flex;
+  flex-direction: column;
+}
+.sub-container-three-p {
+  font-size: 10px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+.sub-container-four-one {
+	height:100%;
+	box-sizing: border-box;
+	border-radius: 4px;
+  display: flex;
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  margin-left: 5px;
+  padding: 5px 10px;
+}
+.sub-container-six
+{border-radius: 4px;
+	width:55px;
+	cursor: pointer;
+    background-color: hsla(0,0%,100%,.15);
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+.sub-container-six-icon
+
+{
+	display:block;
+	margin-right: 10px;
+	margin-left: 10px;
+	background-size: 200px 550px;
+    background-position: -145px -2px;
+	background-image: url(http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+	width: 25px;
+	height: 25px;
+}
+.sub-container-four-two {
+  display: flex;
+  flex-direction: column;
+}
+.sub-container-four-icon
+{
+	background-size: 200px 550px;
+	background-image: url(http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+	width: 44px;
+	height: 22px;
+	margin-right: 10px;
+
+	background-position: -98px -491px;
+}
+.sub-container-four-p {
+  font-size: 14px;
+  margin: 0;
+  
+  font-family: Lato, sans-serif;
+  font-weight: 700;
+  color: white;
+  font-family: Lato, sans-serif;
+
+}
+.sub-container-four-p1 {
+  font-size: 10px;
+  font-family: Lato, sans-serif;
+
+  line-height: 10px;
+  font-weight: 400;
+  color: white;
+  margin: 0;
+}
+.sub-container-five {
+	border-radius: 5px;
+	display: flex;
+  cursor: pointer;
+  background-color: hsla(0, 0%, 100%, 0.15);
+  margin-left: 5px;
+  padding: 9.5px 10px;
+  background-image: linear-gradient(45deg, #53b2fe, #065af3);
+}
+.sub-container-five-icon
+{
+	background-size: 200px 550px;
+display:block;
+margin-right: 10px;
+	background-image: url(http://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+background-position: -67px -489px!important;
+width: 23px;
+height: 22px;
+}
+.sub-container-five-two::after {
+	border: solid #fff;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+	margin-left: 40px;
+    -webkit-transform: rotate(45deg);
+    content: "";
+    margin-top: -5px;
+}
+.sub-container-five-two{
+	display:flex;
+	align-items: center;
+	
+  }
+
+.sub-container-five-one {
+  box-sizing: border-box;
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+  font-family: Lato, sans-serif;
+}

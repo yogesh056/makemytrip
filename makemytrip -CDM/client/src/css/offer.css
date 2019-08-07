@@ -1,0 +1,195 @@
+.offer-main-container
+{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction:column;
+    min-height: 100px;
+}
+.main-one{
+display:block;
+}
+.main-two
+{
+    margin-bottom: 20px;
+
+
+}
+.main-three
+{
+    position: relative;
+    display: block;
+}
+.main-carousel
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.carousel-button
+{
+    position: absolute;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+   
+    border-radius: 26.4px;
+    
+    z-index: 1;
+    left: -14px!important;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+    font-size: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-color: transparent!important;
+}
+.carousel-div
+{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    transform: translateZ(0);
+
+    position: relative;
+    display: block;
+}
+.carousel-div-1
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1800px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+.carousel-main
+{
+    outline: none;
+    width: 600px;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-main-2
+{
+    display: inline-flex;
+    width: 100%;
+}
+.carousel-main-3
+{
+    align-items: center;
+    margin: 5px;
+    border-radius: 6px;
+    padding: 16px 40px;
+    min-height: 80px;
+    background-color: #fff;
+    display:flex;
+    flex:1;
+}
+.sprite-1
+{   display:block;
+    background-size: 300px 700px;
+    background-position: -217px -1px;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background-image: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png);
+    display: inline-block;
+    margin-right: 20px;
+}
+.carousel-div-head
+{
+    flex: 1;
+    
+}
+.carousel-p
+{
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    display: block;
+}
+.font{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 16px;
+    
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+}
+.carousel-login
+{
+    font-family: Lato,sans-serif;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    font-weight: 700;
+    color: #008cff;
+    cursor: pointer;
+    font-weight:700;
+    margin-left:auto;
+}
+.arrow
+{
+    background-position: -174px -86px;
+    width: 24px;
+    height: 10px;
+    margin-left: 5px;
+    display: inline-block;
+    font-family: Lato,sans-serif;
+    background: url(https://imgak.mmtcdn.com/pwa_v3/pwa_commons_assets/desktop/landingSprite@5x.png) no-repeat;
+    font-weight: 700;
+    background-size: 200px 550px;
+    font-size: 0;
+    color: #008cff;
+}
+.closeButton
+{
+    position: absolute;
+    top: 25px;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+   
+    border-radius: 26.4px;
+    
+    z-index: 1;
+    right: -14px!important;
+    margin: 0em;
+    font: 400 11px system-ui;
+    padding: 1px 7px 2px;
+    text-rendering: auto;
+    
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: center;
+    box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
+    font-size: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-color: transparent!important;
+}
